@@ -2,7 +2,8 @@
  
 - Day 1 : [How to create your own chatbot using DialogFlow](https://github.com/Ahmedfurkhan/Artificial-Intelligence-Learnings/tree/main/DialogFlow-Creation)
   
-- Day 2 : Installing Python | Basic Programming
+- Day 2 : [Installing Python | Basic Programming](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Introduction%20Of%20Python%20Basics)
+- 
 - Day 3 : Introduction to Computer vision & its Libraries
 - Day 4 : Moving Object detection using OpenCV
 - Day 5 : Face detection & Tracking
