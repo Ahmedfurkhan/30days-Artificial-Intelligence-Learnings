@@ -7,8 +7,8 @@ This repository contains code for detecting faces using OpenCV with Haar cascade
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your_username/your_repository.git
-    cd your_repository
+    git clone https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings.git
+    cd Face Detection & Algorithms
     ```
 
 2. **Install dependencies:**
@@ -24,10 +24,16 @@ This repository contains code for detecting faces using OpenCV with Haar cascade
 
     Download the Haar cascade file named `haarcascade_frontalface_default.xml` from the OpenCV GitHub repository or other reliable sources. You can also use `haarcascade_frontalface_default.xml` provided by OpenCV.
 
-4. **Run the script:**
+5. **Run the script:For Creating Database**
+   
+   ```bash
+    python faceDataset.py
+    ```
+
+6. **Run the script:For Capturing Pic**
 
     ```bash
-    python face_detection.py
+    python FaceDetection.py
     ```
 
 ## Usage
