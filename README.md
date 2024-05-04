@@ -6,7 +6,7 @@
 - Day 4 : [Moving Object detection using OpenCV](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Moving%20Object%20Detection%20Using%20OpenCV)
 - Day 5 : [Face detection & Tracking](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Face%20Detection%20%26%20Algorithms)
 - Day 6 : [Object Tracking based on color using OpenCV](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Object%20Tracking%20Based%20On%20Color)
-- Day 7 : Face recognition using OpenCV
+- Day 7 : [Face recognition using OpenCV](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Face%20Recognition%20using%20OpenCV)
 - Day 8 : Face Emotion recognition
 - Day 9 : Introduction to Deep Learning & it’s libraries
 - Day 10 : Deep learning algorithm & Designing Neural Network
