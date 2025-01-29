@@ -63,3 +63,49 @@ pip install scipy==1.1.0
 
 # Install PyTorch
 pip3 install --find-links https://download.pytorch.org/whl/torch_stable.html torch==1.3.1 torchvision==0.4.2
+```
+Here are the **stable and recommended commands** for setting up a Python 3.10 environment for **Deep Learning (DL)** and **Large Language Model (LLM)** development:
+
+---
+
+### **1. Install PyTorch (Latest Stable Version)**
+For CPU:
+```bash
+pip install torch torchvision torchaudio
+```
+
+For GPU (CUDA 11.8):
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+---
+
+### **2. Install Hugging Face Libraries (for LLM Development)**
+```bash
+pip install transformers datasets accelerate
+```
+
+---
+
+### **3. Install Essential Libraries**
+```bash
+pip install numpy scipy pandas matplotlib
+```
+
+---
+
+### **4. Install Jupyter Notebook (Optional)**
+```bash
+pip install notebook
+```
+
+---
+
+### **5. Verify Installation**
+```bash
+python -c "import torch; print(torch.__version__)"
+python -c "import transformers; print(transformers.__version__)"
+```
+
+---
