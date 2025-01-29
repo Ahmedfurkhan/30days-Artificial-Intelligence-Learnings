@@ -109,3 +109,47 @@ python -c "import transformers; print(transformers.__version__)"
 ```
 
 ---
+Your Python installation is 64-bit, so the issue is likely due to one of the following:  
+
+1. **Corrupted PyTorch Installation**  
+   Try reinstalling PyTorch with:  
+   ```bash
+   pip uninstall torch
+   pip cache purge
+   pip install torch --index-url https://download.pytorch.org/whl/cpu
+   ```
+   If you are using CUDA, replace `cpu` with the appropriate CUDA version.
+
+2. **Mismatched CUDA Version (if using GPU)**  
+   If you're using a GPU, ensure your installed CUDA version matches the PyTorch version. Run:  
+   ```bash
+   nvcc --version
+   ```
+   Then, install the correct PyTorch version using:  
+   ```bash
+   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+   ```
+
+3. **Ensure Dependencies are Installed**  
+   Some dependencies may be missing. Try:  
+   ```bash
+   conda install -c conda-forge cudatoolkit
+   conda install -c conda-forge libomp
+   ```
+
+4. **Check for Conflicting DLLs**  
+   Run the following in your Conda environment:  
+   ```bash
+   conda list | findstr torch
+   ```
+   If multiple versions are installed, remove them and reinstall.
+
+5. **Try Running Python Manually**  
+   Instead of running the one-liner, try:  
+   ```bash
+   python
+   >>> import torch
+   >>> print(torch.__version__)
+   ```
+   This may give a more detailed error message.
+
