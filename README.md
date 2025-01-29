@@ -9,7 +9,7 @@
 - Day 7 : [Face recognition using OpenCV](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/Face%20Recognition%20using%20OpenCV)
 - Day 8 : [Face Emotion recognition](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/8.Face%20Emotion%20recognition)
 - Day 9 : [Introduction to Deep Learning & it’s libraries](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/9.%20Introduction%20to%20Deep%20Learning%20%26%20it%E2%80%99s%20libraries)
-- Day 10 : Deep learning algorithm & Designing Neural Network
+- Day 10 : [Deep learning algorithm & Designing Neural Network](https://github.com/Ahmedfurkhan/30days-Artificial-Intelligence-Learnings/tree/main/10.%20Deep%20learning%20algorithm%20%26%20Designing%20Neural%20Network)
 - Day 11 : Real-time Object recognition using Pre-trained Model
 - Day 12 : Image classification using CNN
 - Day 13 : Hand Gesture Recognition using DL
